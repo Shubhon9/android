@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Classifieds</string>
+    <string name="title_activity_home">Classifieds</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">ELECTRONICS</string>
+    <string name="slide_1_desc">Buy And Sell your regular Electronics items</string>
+
+    <string name="slide_2_title">MOTORBIKES</string>
+    <string name="slide_2_desc">Buy And Sell your regular Vehicles</string>
+
+    <string name="slide_3_title">FURNITURES</string>
+    <string name="slide_3_desc">Buy And Sell your regular Furnitures</string>
+
+    <string name="slide_4_title">WELCOME</string>
+    <string name="slide_4_desc">BBuy And Sell Your Regular Use Items On Your Price....!!!!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

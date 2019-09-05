@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/card_view"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <RelativeLayout
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/ads_icon"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/classifieds"
+            android:alpha="0.6"
+            android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/ads_icon"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/ads_title"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:text="Android Developer JOB"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:ellipsize="end"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:id="@+id/ads_tags"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minLines="3"
+                android:maxLines="3"
+                android:paddingTop="4dp"
+                android:text="Parliament Street NewDelhi "
+                android:textColor="#808080"
+                android:textSize="14sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:id="@+id/ads_date"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLength="40"
+                android:maxLines="1"
+                android:paddingTop="4dp"
+                android:text="(27th-August-17)"
+                android:textColor="@color/Trans_red"
+                android:textSize="12dp" />
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/ads_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:ellipsize="end"
+                    android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:maxLength="40"
+                    android:maxLines="1"
+                    android:paddingTop="4dp"
+                    android:text="Price : 10000"
+                    android:textColor="@color/Trans_red"
+                    android:textSize="12dp"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

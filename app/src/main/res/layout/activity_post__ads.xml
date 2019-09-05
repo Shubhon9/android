@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cetpainfotech.classifieds.Post_Ads"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:layout_width="154dp"
+            android:layout_height="129dp"
+            app:srcCompat="@drawable/img5" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+            android:weightSum="3">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20dp"
+        android:layout_marginRight="40dp"/>
+
+
+    <EditText
+        android:id="@+id/gettitle"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="title"
+        android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:weightSum="3">
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+
+        android:text="Description"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/etdescription"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="description"
+        android:inputType="textPersonName"
+        android:singleLine="false" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+
+
+                android:text="Price" />
+
+            <EditText
+                android:id="@+id/etprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+
+
+                android:ems="10"
+                android:hint="price"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_weight="3">
+
+    <Button
+        android:id="@+id/btpost"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:background="@color/Trans_red"
+        android:elevation="@dimen/cardview_default_radius"
+        android:text="post"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_gravity="center_vertical"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
